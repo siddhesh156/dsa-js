@@ -2,4 +2,4 @@
 
 # To check solution:
 
-node {Problem-n,js}
+node {Problem-n.js}

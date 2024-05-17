@@ -8,7 +8,6 @@
 // Output: Yes
 // Explanation: Arr[3] + Arr[4] = 6 + 10 = 16
 
-
 function hasArrayTwoCandidates(arr, n, x) {
   let sum = 0;
   for (let j = 0; j < n - 1; j++) {

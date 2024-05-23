@@ -19,13 +19,12 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].*/
  */
 var twoSum = function (nums, target) {
   for (let j = 0; j <= nums.length - 1; j++) {
-    let sum = 0;
     for (let i = j + 1; i <= nums.length - 1; i++) {
-      sum = nums[j] + nums[i];
-      if (sum === target) {
+      if (nums[j] + nums[i] === target) {
         return [j, i];
       }
     }
   }
+  return null;
 };
 console.log(twoSum([3,2,4],6))
